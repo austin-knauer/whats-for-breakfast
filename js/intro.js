@@ -1,10 +1,18 @@
 $(document).ready(()=> {
-        $("#dialogue").removeClass("invisible");
-        $("#dial-1").removeClass("invisible");
+    $("#caption").removeClass("invisible");
     setTimeout(() => {
-        $("#dial-2").removeClass("invisible");
+        $("#title").removeClass("invisible");
     }, 4000);
     setTimeout(() => {
+        $("#caption").addClass("invisible");
+        $("#title").addClass("invisible");
+        $("#dialogue").removeClass("invisible");
+        $("#dial-1").removeClass("invisible");
+    }, 8000);
+    setTimeout(() => {
+        $("#dial-2").removeClass("invisible");
+    }, 12000);
+    setTimeout(() => {
         $("#start-button").removeClass("invisible");
-    }, 8000)
+    },16000)
 });
