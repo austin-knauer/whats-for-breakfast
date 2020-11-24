@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preload" href="../pics/baseball.png" as="image">
+        <link rel="preload" href="../pics/clothes.png" as="image">
+        <link rel="preload" href="../pics/door.jpg" as="image">
+        <link rel="preload" href="../pics/scene1.png" as="image">
+        <link rel="preload" href="../pics/sleep.png" as="image">
+        <link rel="preload" href="../pics/trophy.jpg" as="image">
+        <script src="https://kit.fontawesome.com/a7ed0acdfe.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="../js/about1.js" type="text/javascript"></script>
+        <script src="../js/scroll.js" type="text/javascript"></script>
+        <script src="../js/buttons.js" type="text/javascript"></script>
+    </head>
+    <body class="body">
+        <div class="bg" style="background-image: url(../pics/scene1.png)">
+            <i class="about-b fas fa-search" id="about-1"></i>
+            <i class="about-b fas fa-search" id="about-2"></i>
+            <i class="about-b fas fa-search" id="about-3"></i>
+            <i class="about-b fas fa-search" id="about-4"></i>
+            <i class="about-b fas fa-search" id="about-5"></i>
+            <div class="about-c hidden" id="card-1">
+                <div class="card-header">
+                    <button type="button" class="exit-info"><i class="fas fa-times"></i></button>
+                    <h1 class="big-text">Go Downstairs?</h1>
+                </div>
+                <p class="small-text">I am kinda hungry...and mom would flip if I missed school.</p>
+                <a href="screen2/index.html" class="path"><p class="small-text">Choose</p></a>
+            </div>
+            <div class="about-c hidden" id="card-2">
+                <div class="card-header">
+                    <button type="button" class="exit-info"><i class="fas fa-times"></i></button>
+                    <h1 class="big-text">Trophy</h1>
+                </div>
+                <p class="small-text">The inscription reads: <em>Father-Son Scavenger Hunt: Second Place</em>. It's made of plastic.</p>
+            </div>
+            <div class="about-c hidden" id="card-3">
+                <div class="card-header">
+                    <button type="button" class="exit-info"><i class="fas fa-times"></i></button>
+                    <h1 class="big-text">Stay in Bed?</h1>
+                </div>
+                <p class="small-text">Sleep sounds soooooo good right now...</p>
+                <a href="sleep_ending/index.html" class="path"><p class="small-text">Choose </p></a>
+            </div>
+            <div class="about-c hidden" id="card-4">
+                <div class="card-header">
+                    <button type="button" class="exit-info"><i class="fas fa-times"></i></button>
+                    <h1 class="big-text">Dirty Clothes</h1>
+                </div>
+                <p class="small-text">Mom yelled at me to clean up my room but she's not the boss of me!</p>
+            </div>
+            <div class="about-c hidden" id="card-5">
+                <div class="card-header">
+                    <button type="button" class="exit-info"><i class="fas fa-times"></i></button>
+                    <h1 class="big-text">Baseball & Bat</h1>
+                </div>
+                <p class="small-text">I've scored at least half a home run...at least I would have if the coach would put me in.</p>
+            </div>
+        </div>
+        <div class="nav-bar">
+            <div class="nav-part" id="logo" style="text-align: center; line-height: 1.5"><em>Powered by:<br>CEREAL CORP.</em></div>
+            <button type="button" class="nav-part nav-button" id="help-nav">Help</button>
+            <button type="button" class="nav-part nav-button" id="product-nav">Products</button>
+        </div>
+        <button type="button" class="exit hidden"><i class="fas fa-times"></i></button>
+        <div class="side hidden" id="help">
+            <ul>
+                <li>Drag the screen around to explore the room.</li>
+                <li>Click on a magnifying glass to learn more about that object.</li>
+                <li>Make good choices!</li>
+            </ul>
+        </div>
+        <div class="side hidden" id="products">
+            <button type="button" class="product-button" id="p1">Tasty Flakes</button>
+            <button type="button" class="product-button" id="p2">Oat Boats</button>
+            <button type="button" class="product-button" id="p3">Rainbow Crunch</button>
+            <button type="button" class="product-button" id="p4">NEW! Butterscotch Squares</button>
+        </div>
+        <div class="side hidden" id="product-info">
+            <div class="tidbit hidden" id="p1-info">
+                <h1 class="big-text">Tasty Flakes</h1>
+                <ul>
+                    <li>Our most popular cereal. Perfectly sweet flakes of corn and wheat with an added yogurt surprise.</li>
+                    <li>Only 15g of sugar per serving and a wide assortment of daily vitamins and minerals.</li>
+                    <li>Don't worry mom, we won't tell if you have some too.</li>
+                </ul>
+            </div>
+            <div class="tidbit hidden" id="p2-info">
+                <h1 class="big-text">Oat Boats</h1>
+                <ul>
+                    <li>The cereal that got us started, Oat Boats were invented in 1962 by Daniel Scramble.</li>
+                    <li>Filled with oats, Oat Boats is a great source of fiber and still tastes great.</li>
+                    <li>They say the only way to eat oat boats is to get one of every boat shape per bite.</li>
+                </ul>
+            </div>
+            <div class="tidbit hidden" id="p3-info">
+                <h1 class="big-text">Rainbow Crunch</h1>
+                <ul>
+                    <li>As pretty to the eyes as it is to the tongue!</li>
+                    <li>Rainbow Crunch is made with REAL dried fruit.</li>
+                    <li>Our customers voted and it's official: Strawberry is your favorite Rainbow flavor!</li>
+                </ul>
+            </div>
+            <div class="tidbit hidden" id="p4-info">
+                <h1 class="big-text">NEW! Butterscotch Squares</h1>
+                <ul>
+                    <li>Our scientists worked hard to make each bite of Butterscotch Squares perfect.</li>
+                    <li>Filled with salty-sweet butterscotch flavor, this is a cereal for all ages.</li>
+                    <li>Available for a limited time only. Get yours today!</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+
+</html>
