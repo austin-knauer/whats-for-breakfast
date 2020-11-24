@@ -1,0 +1,271 @@
+#caption {
+    font-family: 'Goldman', sans-serif;
+}
+
+#title {
+    font-family: 'Sonsie One', sans-serif;
+    font-size: 3rem;
+}
+
+.hidden {
+    display: none !important;
+    width: 0 !important;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    width: 100%;
+    height: 90%;
+    margin: 0;
+    background-size: 2000px auto;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 100% 100%;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+
+@media screen and (min-width: 2000px) {
+    .bg {
+        background-size: 100%;
+    }
+}
+
+i {
+    pointer-events: none;
+}
+
+.about-b {
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+    color: #b22222;
+    position: absolute;
+    cursor: pointer;
+    pointer-events: auto !important;
+    
+}
+
+.about-c {
+    width: 25%;
+    height: 17rem;
+    padding: .5rem 1.5rem 0 1.5rem;
+    position: absolute;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-header {
+    width: 100%;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header > button {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.card-header > button > i {
+    font-size: 2rem;
+}
+
+.path {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    width: 10rem;
+    height: 2rem;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-size: .5rem;
+}
+
+.text {
+    font-size: .5rem;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+}
+
+#logo {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-part {
+    background-color: black;
+    color: white;
+    border: none;
+    border-right: 2px solid white;
+    height: 100%;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#product-nav {
+    border: none;
+}
+
+.exit {
+    background-color: black;
+    width: 13.5vh;
+    height: 13.5vh;
+    position: absolute;
+    top: 0;
+    right: 25%;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    box-sizing: border-box;
+    transition: width 1s;
+}
+
+.exit > i {
+    color: white;
+    font-size: 2rem;
+}
+
+.side {
+    transition: width 1s;
+    width: 25%;
+    height: 90%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 2px solid white;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.product-button {
+    width: 100%;
+    height: 15%;
+    position: relative;
+    border: none;
+    border-bottom: 2px solid white;
+    display: block;
+    color: white;
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.other-screen {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.text-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box > .path {
+    position: static !important;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 2rem;
+}
+
+.small-text {
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.big-text {
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.tidbit {
+    margin: .25rem .75rem .25rem .75rem;
+}
+
+ul {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+.ending-pic > img {
+    margin-bottom: 10%;
+    width: 480px;
+    height: auto;
+}
+
+.ending-text {
+    width: 480px;
+}

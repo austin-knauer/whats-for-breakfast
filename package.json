@@ -1,0 +1,15 @@
+{
+  "name": "whats-for-breakfast",
+  "version": "1.0.0",
+  "description": "an interactive story",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
